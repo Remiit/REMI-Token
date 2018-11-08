@@ -9,7 +9,7 @@ REMI(RMI) is a REMIIT project external token based on ERC20
 - Version : v4.1.14 (core: 4.1.14)
 
 ## Token Economy
-[!Token Diagram](./assets/remi-remd.png)
+![Token Diagram](./assets/remi-remd.png)
 🎉 REMIIT 프로젝트는 송금 비즈니스와 유기적으로 설계된 자체 안정화 토큰 시스템을 가지고 있습니다.
 안정화시키기 위한 가장 핵심적인 요소는 토큰의 REMI-REMD 이중화입니다. 
 REMI는 외부거래소에서 거래될 수 있는 ERC20 기반 토큰이며, REMD는 내부 비즈니스용으로만 사용될 수 있습니다.
