@@ -3,7 +3,7 @@ pragma solidity 0.4.24;
  
 /**
  * @title Lockable Token
- * @author info@yggdrash.io
+ * @author info@remiit.io
  */
 contract Lockable {
     bool public tokenTransfer;

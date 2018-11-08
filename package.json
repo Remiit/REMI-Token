@@ -1,0 +1,40 @@
+{
+  "name": "remi_token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "lint:sol": "solium -d .",
+    "lint:sol:fix": "solium -d . --fix",
+    "lint:all": "npm run lint && npm run lint:sol",
+    "lint:all:fix": "npm run lint:fix && npm run lint:sol:fix",
+    "console": "truffle console",
+    "test": "scripts/test.sh",
+    "coverage": "scripts/coverage.sh",
+    "compile": "truffle compile"
+  },
+  "author": "logan Hong <logan@remiit.io>",
+  "license": "ISC",
+  "dependencies": {
+    "openzeppelin-solidity": "^1.12.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.1.0",
+    "eth-gas-reporter": "^0.1.12",
+    "ethereumjs-util": "^6.0.0",
+    "ethjs-abi": "^0.2.1",
+    "ganache-cli": "^6.1.8",
+    "solidity-coverage": "^0.5.11",
+    "solium": "^1.1.8",
+    "truffle": "^4.1.14",
+    "truffle-core": "^4.1.14",
+    "truffle-flattener": "^1.2.9",
+    "truffle-hdwallet-provider": "0.0.6",
+    "truffle-hdwallet-provider-privkey": "^0.3.0"
+  }
+}
