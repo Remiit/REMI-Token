@@ -1,0 +1,14 @@
+# Build
+build/
+
+node_modules
+*.log
+
+# VS Code directories
+.vscode
+
+# Dev
+.env
+.DS_Store
+Thumbs.db
+
